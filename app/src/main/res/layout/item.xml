@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/iv_photo"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+
+        android:textSize="12dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/EdiName"
+        android:layout_toRightOf="@id/iv_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_below="@id/EdiName"
+        android:textSize="12dp"
+        android:layout_toRightOf="@id/iv_photo"
+        android:layout_marginTop="10dp"
+        android:id="@+id/EdiAdrress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@id/EdiAdrress"
+        android:textSize="12dp"
+        android:layout_toRightOf="@id/iv_photo"
+        android:layout_marginTop="10dp"
+        android:id="@+id/Ubication"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_toRightOf="@id/iv_photo"
+        android:id="@+id/Update"
+        android:layout_marginLeft="100dp"
+        android:text="modificar"
+        android:layout_below="@id/EdiAdrress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
